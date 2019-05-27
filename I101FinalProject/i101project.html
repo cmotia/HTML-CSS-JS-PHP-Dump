@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- html skeleton framework from IU I101 -->
+    <meta charset="UTF-8">
+    <title>I101 Group 37 Project</title>
+    <title>RFID Solutions</title>
+    <!--Background photo credits to PixleBay.com
+    //photo listed as free for personal and commercial use-->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(vinyal.jpg) no-repeat;
+            background-size: cover;
+        }
+        .box{
+            width: 500px;
+
+            padding: 45px;
+            text-align: center;
+            margin: auto;
+            font-family: Helvetica;
+            color: white;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .tab {
+            width: 139px;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            background-color: #222;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            color: white;
+        }
+
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ddd;
+            border-top: none;
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <h1>RFID Solutions</h1>
+    <h2>Group 37</h2>
+
+    <h4>Christopher Motia, John Hasey, Zane Meiss, Tyler Mayer</h4>
+    <h6>Background image by PixleBay(copyright-free)</h6>
+    <a href="http://pages.iu.edu/~cmotia/i101/i101project.html"><img src="chris.JPG" width= "120px" height= "150px"/></a>
+    <a href="http://pages.iu.edu/~jhasey/i101/i101project.html"><img src="john.jpg" width= "120px" height= "150px"/></a>
+    <a href="http://pages.iu.edu/~ezmeiss/i101/i101project.html"><img src="zane.jpg" width= "120px" height= "150px"/></a>
+    <a href="http://pages.iu.edu/~mayert/i101/i101project.html"><img src="tyler.JPG" width= "90px" height= "150px"/></a>
+    <p>This site was made using the HTML Skeleton, for more in go to <a href="http://getskeleton.com/">getskeleton.com</a></p>
+
+
+</div>
+    <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'research')">Research</button>
+    <button class="tablinks" onclick="openTab(event, 'Data')">Data Visualization</button>
+    <button class="tablinks" onclick="openTab(event, 'solution')">Solution</button>
+    <button class="tablinks" onclick="openTab(event, 'presentation')"> Presentation</button>
+    </div>
+
+    <div id="research" class="tabcontent">
+        <h2>Research</h2>
+
+        <embed src="research.pdf" width="500" height="600">
+
+
+    </div>
+    <div id="Data" class="tabcontent">
+        <h2>DATA</h2>
+        <img src="image4.png" width= "400px" height= "200px"/>
+        <p>
+            Approximately 69% of those sampled have attended between 1 and 4 music venues.
+            <br>
+            <img src="image5.png" width= "400px" height= "200px"/>
+        <br>
+
+
+            92.3% of them rated their experience highly.
+            <br>
+            <img src="image6.png" width= "400px" height= "200px"/>
+        <br>
+
+
+            Most have never won anything at a music venue.
+        <br>
+            <img src="image7.png" width= "400px" height= "200px"/>
+            <br>
+
+            Over half have already been introduced to the wristband alternative.
+        <br>
+            The following infographic was taken from online. It was put together by a group called Oxygen8, with research done in part by Motorola.
+        <br>
+
+
+
+        <br>
+            <img src="image8.jpg" width= "400px" height= "600px"/>
+            <br>
+            The research for this infographic was done with cell phones in mind (as it was done by a cell phone manufacturing company,) but there are some things we can pull from it that give us insight into what festival-goers look for in their experience. For example, it's important to us that one third of those surveyed say that music festivals are their favorite summer activity. This tells us how important the problems we're tackling really are. We also can pull from this infographic that when designing our solution we should keep in mind color options, as a large group of those surveyed valued color coordination between their phone cases and their outfits, we can assume the same would go for bracelets. We can also incorporate features in our solution that would help those who get split from their friends, since the graphic tells us that there are some who worry about losing their friends at the event.
+            <hr>
+            From our own data, and the infographic by Oxygen8, we are able to better understand the kinds of experiences that people are having at music festivals. This information will help us make those experiences even better.
+            <hr>
+
+            Below are screenshots of the survey we deployed:
+            <br>
+        <img src="image9.png" width= "400px" height= "300px"/>
+        <img src="image10.png" width= "400px" height= "300px"/>
+        </p>
+
+
+        </a>
+    </div>
+    <div id="solution" class="tabcontent">
+        <h2>Problem Statement</h2>
+        <p>An annual music festival with artists, performers and bands, wants to hold a give away with various items. The items range from free tickets, meet and greets to t-shirts.</p>
+
+        <h2>Solution</h2>
+        <p>When given this assignment we had to think of an idea on how to manage all this into one system. As a group we had decided to use a method similar to what other music festivals have used before. RFID wristbands are the solution to our problems at music festivals. These wrist bands have everything built into them. Tracking, cashless payments,medical information, easy entrance into the festivals and much more. One example being t-shirt size so that only contestants the correct size will be entered in a raffle for a shirt. How do these wristbands work? They have a small computer chip built into them which can manage all these systems. These computer chips are connected to a database which holds everyone's information. These RFID chips have backup systems just in case the power where to go out at the festival, people would still be able to get in.</p>
+        <br>
+            <p>You might think all these scanners would slow down traffic but if every entrance has 8 scanners (each costing around 1500)like you would see at an amusement park and each stage has around 6 entrances and assuming it will take a person around 10 seconds to get in through the scanners thats 48 people who can get in every 10 seconds so within 17 minutes we could get approximately 4,800 people into a stage. Bear in mind this is a low end estimate as for all practical purposes scanning in shouldnt take more than 5 seconds.
+        </p>
+        <p>Click on the envelope to download our an example of what our RFID user database would look like</p>
+        <a href="databaseExample.accdb" PowerPoint>
+            <img src=envelope.png width= "35px" height= "50px" alt="Norwegian Project"></a>
+        <p> Our solution meets the problem requirement for the project because when you enter a stage area you would register for the raffle for that performance.
+            These RFID chips have a tracking system in them so once you entered the geofence you would be automatically entered into the raffle.</p>
+
+        <img src="venue.png" width= "500px" height= "500px"/>
+        <h2>Marketing</h2>
+        <p> RFID scanners cost around $1000-$2000 a scanner. You would have these scanners at every entrance and exit as well it takes anywhere from 3-5 seconds to scan a wristband allowing you to scan thousands of people fast.
+            Companies are going to want this technology becuase it makes the overall festival run a lot more efficiently and smoothly.</p>
+
+        <p> The people who we are trying to sell our product to would be event organizers and festival planners, but I believe this technology can be used for more then that, I believe you could use this systems in large factories where you can keep track of your workers as all times. </p>
+
+
+
+    </div>
+    <div id="presentation" class="tabcontent">
+
+        <p>Click on the envelope to download our slides</p>
+        <a href="G37%20Final%20Presentation.pptx" PowerPoint>
+            <img src=envelope.png width= "35px" height= "50px" alt="Norwegian Project"></a>
+    </div>
+<!--javascript -->
+<script>
+    function openTab(evt, tab) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tab).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+
+
+</body>
+</html>
